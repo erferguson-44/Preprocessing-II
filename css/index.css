@@ -184,7 +184,6 @@ img {
   }
 }
 .navigation-container .navbar {
-  border: 1px solid red;
   width: 50%;
 }
 @media (max-width: 500px) {
@@ -290,8 +289,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick {
-    border: 1px solid red;
-    padding: 0 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,6 +303,8 @@ img {
   .home .content-pick .destination {
     width: 100%;
     margin: 0 30px;
+    width: 75%;
+    margin: 0 auto 30px;
   }
 }
 .home .content-pick .destination .btn {
