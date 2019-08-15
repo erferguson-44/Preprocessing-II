@@ -170,6 +170,7 @@ img {
 }
 .navigation-container {
   padding: 2%;
+  margin: 0 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -243,7 +244,6 @@ img {
   justify-content: space-between;
 }
 .home .content-pick .destination {
-  border: 1px solid red;
   width: 30%;
   margin-bottom: 30px;
 }
