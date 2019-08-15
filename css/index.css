@@ -169,24 +169,19 @@ img {
   margin: 0 auto;
 }
 .navigation-container {
-  border: 1px solid black;
   padding: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.navigation-container h1 {
-  border: 1px solid red;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .navigation-container .navbar {
-  border: 1px solid red;
   width: 50%;
 }
 .navigation-container .navbar a {
   text-decoration: none;
   color: black;
   padding: 0 20px;
-  border: 1px solid red;
 }
 .footer {
   width: 100%;
