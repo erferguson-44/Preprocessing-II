@@ -184,7 +184,6 @@ img {
   }
 }
 .navigation-container .navbar {
-  border: 1px solid red;
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -290,7 +289,6 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
-  margin: 4% 7%;
 }
 @media (max-width: 500px) {
   .home .content-pick {
