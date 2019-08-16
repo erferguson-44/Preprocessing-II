@@ -169,7 +169,7 @@ img {
   margin: 0 auto;
 }
 .navigation-container {
-  padding: 2%;
+  padding: 4%;
   margin: 0 2%;
   display: flex;
   justify-content: space-between;
@@ -184,7 +184,10 @@ img {
   }
 }
 .navigation-container .navbar {
+  border: 1px solid red;
   width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 @media (max-width: 500px) {
   .navigation-container .navbar {
