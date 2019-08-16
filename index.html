@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Fun Bus Travel Agency - Solution</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -15,11 +15,25 @@
 </head>
 
 <body>
-
   
-     
+    
   <div class="container home">
-   
+      <div class="navigation-container">
+          <h1>Fun Bus</h1>
+          <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">About Us</a>
+            <a href="#news">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+      </div>
+    <section class="header-section">
+      <img src="img/fun-bus.jpg">
+      <div class="text-content"> 
+        <h2>Welcome to Fun Bus!</h2>
+        <p>Pretty simple traveling fun WordPress wanderlust darn simple organized.Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure.</p>
+      </div> 
+    </section>
     <section class="content-section">
       <div class="text-content">
         <h2>Let's Go!</h2>
@@ -63,6 +77,30 @@
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
         <div class="btn">Sign Me Up!</div>
       </div>
+    </section>
+    <section class='form-section'>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Destination Vacation:</legend>
+        <input type="radio" name="gender" value="male" checked>Fun in the Sun<br>
+        <input type="radio" name="gender" value="female">Mountain Excursion<br>
+        <input type="radio" name="gender" value="other"> Island Getaway<br>
+      </fieldset><br>
+      <fieldset>
+        <legend>Contact information:</legend>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        Email:<br>
+        <input type="text" name="email"><br>
+        Phone:<br>
+        <input type="text" name="phone"><br>
+        <br>
+        <textarea name="message" value="Jot a quick note!" rows="10" cols="30"></textarea><br>
+        <button class="btn" type="button" onclick="alert('Message Received!')">Vaca!</button>
+      </fieldset>
+    </form>
     </section>
   </div><!-- container -->
 
