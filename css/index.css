@@ -317,3 +317,19 @@ img {
   font-weight: bold;
   padding: 15px;
 }
+.home .form-section {
+  border: 1px solid #17A2B8;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.home .btn {
+  background: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+}
